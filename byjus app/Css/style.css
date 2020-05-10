@@ -1,0 +1,399 @@
+*,html,body
+{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    height: 3000px;
+}
+
+header
+{
+    background-color: white;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+.log image{
+    margin-top: 50px;
+}
+header nav{
+    float: right;
+}
+
+header nav ul li a {
+    padding-right: 30px;
+    color: black;
+    transition: all 0.5s ease-in;
+}
+header nav ul li .fas ,.fa
+{
+    padding-right: 30px;
+    color: black;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+header nav ul li i ,.fas ,.fa:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
+.img1{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/top-banner.jpg) ;
+    background-size: 100% 100%;
+    
+}
+.slider,.slider ul,.slider ul li
+{
+    height: 720px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    
+}
+.slider h2{
+    font-weight: bold;
+   margin-top: 220px;
+}
+.slider span{
+    color: orange;
+}
+.slider a{
+    padding: 10px 40px;
+    margin-right: 15px;
+}
+.slider a.btn-half{
+background-color: green;
+color: white;
+transition: 0.5s ease-in;
+}
+
+.slider a.btn-half:hover{
+    background-color: Lightgreen;
+}
+.slider a.btn-full{
+    background-color:orange;
+    color: white;
+    transition: 0.5s ease-in;
+    }
+.slider a.btn-full:hover{
+    background-color: #e67e22;
+}   
+.img2{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/puma_1539850144_725x725.jpg) ;
+        background-size: 100% 100%;
+        
+    } 
+.img3{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/IMG_20180419_083428.jpg) ;
+        background-size: 100% 100%;
+        
+    }    
+.slider i{
+    font-size: 30px;
+    margin-right: 15px;
+}      
+.intro-area{
+    position: relative;
+    background-image: url(../images/Young\ girl\ read\ book\ in\ library\ Wallpapers\ 1.jpg)
+    padding: 100px 0px;
+    text-align: center;
+}
+.sub-headings{
+    position: relative;
+    margin-bottom: 75px;
+}
+.sub-heading:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -3%;
+    width: 6%;
+    height: 1px;
+    background-color: black;
+    z-index: 1;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.sub-heading:hover:before{
+    width: 24%;
+    margin-left: -12px;
+}
+
+.sub-heading:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12%;
+    width: 24%;
+    height: 1px;
+    background-color: #e1e1e1;
+}
+
+.sub-heading p
+{
+    color: #818181;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025cm;
+}
+.intro-block{
+    position: relative;
+    background: #f7f7f7;
+    margin: 70px 0px 0px;
+    text-align: center;
+    padding: 70px 25px 40px;
+}
+.intro-block:hover , .intro-block:active{
+    background:lightgreen;
+
+}
+.intro-block:hover{
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+}
+.intro-block .intro-icon{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+}
+.intro-block .fa {
+    width: 63px;
+    height: 63px;
+    font-size: 30px;
+    color: white;
+    line-height: 2;
+    background: deepskyblue;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #cceef9;
+    }
+    .intro-block .fab {
+        width: 63px;
+        height: 63px;
+        font-size: 30px;
+        color: white;
+        line-height: 2;
+        background: deepskyblue;
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 10px #cceef9;
+        }  
+
+.intro-block .fas{
+    width: 63px;
+    height: 63px;
+    font-size: 30px;
+    color: white;
+    line-height: 2;
+    background: lightgreen;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #cceef9;
+    }
+.intro-block:hover .fa, .intro-block.active .fa{
+    background: white;
+    color: deepskyblue;
+    box-shadow: 0px 0px 0px 10px deepskyblue;
+}
+.intro-block:hover .fab, .intro-block.active .fab{
+    background: white;
+    color: deepskyblue;
+    box-shadow: 0px 0px 0px 10px deepskyblue;
+}
+.intro-block:hover .fas, .intro-block.active .fas{
+    background: white;
+    color: deepskyblue;
+    box-shadow: 0px 0px 0px 10px deepskyblue;
+}
+.intro-block h3{
+    font-size: 18px;
+    color: deepskyblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.intro-block p{
+    color: #505050;
+}
+.intro-block:hover h3,.intro-block:hover p{
+    color: #f6f6f6;
+}
+.feature-area{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/OG_18AW_SP_Select_Suede-50_BradleyTheodore_6223_RGB.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.title h2,p {
+    color: white;
+}
+.single-feature h3{
+    color: white;
+}
+.feature-area{
+    padding: 70px;
+}
+.single-feature{
+    position: relative;
+    width: 325px;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    border-right: 1px solid #65c8e5;
+    border-bottom: 1px solid #65c8e5;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.feature-block:after{
+    content: "";
+    display: table;
+}
+.feature-block:after{
+    clear: both;
+}
+.featured-icon{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.single-feature i.fas{
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #00a7dd;
+    color: white;
+    width: 44px;
+    height: 44px;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.feature-block:hover .single-feature{
+    border-color: white;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+
+}
+.single-feature:hover .featured-icon .fas{
+    border: 2px solid #00a7dd;
+    background: white;
+    color: deepskyblue;
+}
+.single-feature:nth-of-type(even){
+    border-right: none;
+}
+.single-feature:nth-last-child(2){
+    border-bottom: none;
+}
+.single-feature:last-child{
+    border-bottom: none;
+}
+.title .sub-heading p{
+    color: white;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: deepskyblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .team-area{
+      padding: 70px 0;
+      background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/dd.jpg);
+      ;
+      
+  }
+.team-area ,.title h2 {
+    color: whites;
+}
+.team-area  p{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
